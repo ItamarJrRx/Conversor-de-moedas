@@ -1,0 +1,111 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  background-color: #8a51fc;
+}
+.logo {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 20px auto;
+}
+
+main {
+  width: 375px;
+  border-radius: 20px;
+  background: #f4f4f4;
+
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+}
+label {
+  color: #777;
+  font-weight: 700;
+  font-size: 14px;
+}
+select,
+input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background: #fff;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 18px;
+
+  color: #555;
+  font-size: 16px;
+  font-weight: 700;
+}
+button {
+  width: 327px;
+  height: 48px;
+
+  border-radius: 5px;
+  background: #772fd3;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+button:active {
+  opacity: 0.5;
+  transition: 0.1s;
+}
+.resultado {
+  width: 327px;
+  height: 276px;
+  margin-top: 36px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  border-radius: 20px;
+  border: 1px solid #772fd3;
+}
+.moeda-selecionada {
+  margin-bottom: 14px;
+}
+.moeda-converter {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.arrow {
+  width: 35px;
+  height: 49px;
+  margin: 0 auto;
+}
+.moeda-convertida {
+  width: 44px;
+  height: 44px;
+  margin-top: 14px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+}
+
+.moeda {
+  color: #777;
+  font-size: 14px;
+}
+.valor-moeda,
+.valor-moeda-convertida {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700;
+}
