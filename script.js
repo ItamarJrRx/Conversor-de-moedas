@@ -14,7 +14,7 @@ function convertValue() {
   //VALORES DE CONVERSAO
   const dolarToday = 5.2
   const euroToday = 6.2
-  const bitcoinToday = 120.0
+  const bitcoinToday = 120000
   const libraToday = 7.2
   //SELECAO DE MOEDAS E CONVERSAO
   if (currencySelect.value === "dolar") {
